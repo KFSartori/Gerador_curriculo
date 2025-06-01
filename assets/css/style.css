@@ -1,0 +1,119 @@
+body {
+  background: linear-gradient(120deg, #f1f5ff 0%, #fff8f0 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+
+/* NAVBAR personalizada */
+.navbar {
+  background: #232857 !important; /* azul marinho escuro */
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 2px 12px rgba(36,37,38,0.08);
+}
+.navbar .navbar-brand {
+  color: #fff !important;
+  background: #2ecc71; /* verde */
+  padding: 12px 38px;
+  border-radius: 14px;
+  font-size: 1.7em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  text-shadow: 0 2px 4px rgba(36,37,38,0.13);
+  box-shadow: 0 2px 8px rgba(36,37,38,0.09);
+  display: inline-block;
+}
+
+/* Layout do formulário e currículo */
+.container {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px 0 rgba(36,37,38,0.07);
+  padding: 38px 30px 32px 30px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 600px;
+}
+h2, h5 {
+  font-weight: bold;
+  color: #2b3990;
+  margin-bottom: 18px;
+}
+label {
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #34495e;
+}
+input.form-control, textarea.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccd6f6;
+  background: #f5f8ff;
+  color: #222;
+  font-size: 1.06em;
+}
+input.form-control:focus, textarea.form-control:focus {
+  border-color: #2b3990;
+  background: #fff;
+  outline: none;
+}
+.btn-primary {
+  background: #2b3990;
+  border: none;
+  border-radius: 24px;
+  padding: 11px 30px;
+  font-size: 1.11em;
+  box-shadow: 0 2px 8px rgba(36,37,38,0.09);
+  transition: 0.2s;
+}
+.btn-primary:hover {
+  background: #495ab1;
+}
+.btn-secondary {
+  background: #ffc300;
+  color: #222;
+  border: none;
+  border-radius: 24px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(36,37,38,0.04);
+  transition: 0.2s;
+}
+.btn-secondary:hover {
+  background: #ffd860;
+  color: #2b3990;
+}
+/* Personalização para a página de saída (currículo gerado) */
+.container h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #2b3990;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 6px;
+  font-size: 1.05em;
+}
+/* Botão de imprimir/baixar na página do currículo */
+.btn-success {
+  background: #2ecc71;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 28px;
+  font-size: 1.08em;
+  box-shadow: 0 2px 8px rgba(36,37,38,0.09);
+}
+.btn-success:hover {
+  background: #27ae60;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 5px;
+    max-width: 98vw;
+  }
+  h2, h5 {
+    font-size: 1.2em;
+  }
+}
