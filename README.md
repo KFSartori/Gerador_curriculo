@@ -37,13 +37,6 @@ Este projeto é um gerador de currículos online simples, desenvolvido em **PHP*
 5. **Preencha os campos, adicione suas informações e clique em “Gerar Currículo”.**
    - O currículo aparecerá em uma nova página, com opção de imprimir ou baixar.
 
-## 📸 Protótipos (Figma)
-
-Veja abaixo exemplos das telas do sistema:
-
-![Protótipo do Gerador de Currículo](Gerador de Currículo figma.pdf)
-
-
 ## 💡 Autor
 
 - Kamila Sartori
